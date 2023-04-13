@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T10:50:26.824Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="21.1.7" etag="dEMmdCpRUdGDXrtBAC-v" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T10:52:58.305Z" agent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Xw-n9RdOOw_qaBGejPvh" version="21.1.7" type="github">
   <diagram name="第 1 页" id="tbAJ8RxaREDdDVI8xP5P">
-    <mxGraphModel>
+    <mxGraphModel dx="730" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Begj0nZ0ei6H-t7hNqZ0-1" value="MCU" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="290" y="420" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Begj0nZ0ei6H-t7hNqZ0-3" value="USB接口" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="140" y="445" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Begj0nZ0ei6H-t7hNqZ0-4" value="RF" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="315" y="590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Begj0nZ0ei6H-t7hNqZ0-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Begj0nZ0ei6H-t7hNqZ0-6" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="510" y="510" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Begj0nZ0ei6H-t7hNqZ0-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Begj0nZ0ei6H-t7hNqZ0-3" target="Begj0nZ0ei6H-t7hNqZ0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="490" as="sourcePoint" />
+            <mxPoint x="270" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Begj0nZ0ei6H-t7hNqZ0-9" value="USB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="460" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Begj0nZ0ei6H-t7hNqZ0-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Begj0nZ0ei6H-t7hNqZ0-4" target="Begj0nZ0ei6H-t7hNqZ0-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="580" as="sourcePoint" />
+            <mxPoint x="210" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Begj0nZ0ei6H-t7hNqZ0-11" value="RF" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="555" width="40" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
